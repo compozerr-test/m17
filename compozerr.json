@@ -1,4 +1,5 @@
 {
+    "type": "module",
     "name": "template",
     "dependencies": { },
     "start": "echo 'Hi Mom!'",
