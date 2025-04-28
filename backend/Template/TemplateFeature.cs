@@ -4,11 +4,11 @@ using Template.Services;
 
 namespace Template;
 
-public class ExampleFeature : IFeature
+public class TemplateFeature : IFeature
 {
 
     void IFeature.ConfigureServices(IServiceCollection services)
     {
-        services.AddSingleton<IExampleService, ExampleService>();
+        services.AddSingleton<ITemplateService, TemplateService>();
     }
 }
