@@ -1,13 +1,15 @@
 {
     "type": "module",
     "name": "template",
-    "dependencies": { },
+    "dependencies": {
+        "compozerr_test/m16": "*"
+    },
     "start": "echo 'Hi Mom!'",
     "startupTimeoutMs": 1000,
     "readyMessage": "Hi Mom",
     "end": "",
     "port": "",
-    "frontend":{
+    "frontend": {
         "routesDir": "frontend/src/routes"
     }
 }
