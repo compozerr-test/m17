@@ -2,7 +2,7 @@
     "type": "module",
     "name": "template",
     "dependencies": {
-        "compozerr_test/m16": "*"
+        "compozerr-test/m16": "*"
     },
     "start": "echo 'Hi Mom!'",
     "startupTimeoutMs": 1000,
